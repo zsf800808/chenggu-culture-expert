@@ -1,0 +1,43 @@
+{
+  "name": "chenggu-culture-expert",
+  "version": "1.0.0",
+  "description": "Traditional Chenggu (bone-weight) folk-culture interpreter: deterministic lookup-table calculation with Ganzhi calendar conversion and cultural readings, no fortune-telling.",
+  "author": {
+    "name": "admin"
+  },
+  "agents": ["./agents/chenggu-culture-expert.md"],
+  "skills": ["./skills/chenggu-calc"],
+
+  "expertType": "agent",
+  "agentName": "chenggu-culture-expert",
+
+  "displayName": {
+    "en": "Chenggu Culture Sage",
+    "zh": "称骨先生"
+  },
+  "profession": {
+    "en": "Traditional Chenggu Culture Interpreter",
+    "zh": "传统称骨文化解读师"
+  },
+  "displayDescription": {
+    "en": "A traditional Chenggu folk-culture interpreter using deterministic lookup-table calculation to avoid hallucination, converting Ganzhi calendar, computing bone-weight in liang/qian, and offering cultural readings and encouragement.",
+    "zh": "传统称骨民俗文化解读专家，脚本固定查表计算杜绝幻觉，换算干支历法，输出骨重、歌诀文化解读与劝勉。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "帮我算一下称骨：1990年农历三月初五辰时",
+    "en": "Calculate my Chenggu bone-weight: 1990, lunar month 3, day 5, Chen hour"
+  },
+  "plugin": "chenggu-culture-expert",
+  "tags": [
+    { "en": "Chenggu Calculation", "zh": "称骨计算" },
+    { "en": "Ganzhi Calendar", "zh": "干支历法" },
+    { "en": "Folk Culture", "zh": "民俗文化" }
+  ],
+  "quickPrompts": [
+    { "en": "Calculate my Chenggu bone-weight: 1990, lunar month 3, day 5, Chen hour", "zh": "帮我算一下称骨：1990年农历三月初五辰时" },
+    { "en": "Explain the origin of Chenggu songs and the Ganzhi calendar", "zh": "给我讲讲称骨歌的由来和干支历法" },
+    { "en": "What do the year, month, day, and hour pillars mean in Chenggu?", "zh": "称骨里的年柱、月柱、日柱、时柱分别是什么意思？" }
+  ]
+}
