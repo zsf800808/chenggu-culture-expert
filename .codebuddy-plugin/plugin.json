@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Traditional Chenggu (bone-weight) folk-culture interpreter: deterministic lookup-table calculation with Ganzhi calendar conversion and cultural readings, no fortune-telling.",
   "author": {
-    "name": "admin"
+    "name": "zsf800808",
+    "email": "339031195+zsf800808@users.noreply.github.com"
   },
+  "homepage": "https://github.com/zsf800808/chenggu-culture-expert",
+  "license": "MIT",
+  "keywords": ["chenggu", "称骨", "民俗文化", "传统文化", "干支历法"],
   "agents": ["./agents/chenggu-culture-expert.md"],
   "skills": ["./skills/chenggu-calc"],
 
@@ -24,7 +28,7 @@
     "zh": "传统称骨民俗文化解读专家，脚本固定查表计算杜绝幻觉，换算干支历法，输出骨重、歌诀文化解读与劝勉。"
   },
   "avatar": "avatars/expert.png",
-  "categoryId": "12-IndustryConsultant",
+  "categoryId": "15-Education",
   "defaultInitPrompt": {
     "zh": "帮我算一下称骨：1990年农历三月初五辰时",
     "en": "Calculate my Chenggu bone-weight: 1990, lunar month 3, day 5, Chen hour"
